@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Traffic Counting System</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Traffic Counting System</h1>
+
+    <?php
+    // Connect to the SQL Server
+    $servername = 'localhost';
+    $username = 'u607713813_traffic';
+    $password = 'Porsgrunn@1064';
+    $dbname = 'u607713813_traffic';
+    $conn = new PDO("sqlsrv:Server=$servername;Database=$dbname", $username, $password);
+
+    $servername2 = 'localhost';
+    $username2 = 'u607713813_porsgrunnpark';
+    $password2 = 'Porsgrunn@1064';
+    $dbname2 = 'u607713813_parking';
+    $conn2 = new PDO("sqlsrv:Server=$servername2;Database=$dbname2", $username2, $password2);
+
+    // Fetch data from vehicle_counts table
+    $stmt1 = $conn->query("SELECT * FROM vehicle_counts");
+    $vehicleCounts = $stmt1->fetchAll(PDO::FETCH_ASSOC);
+
+    // Fetch data from parking_data table
+    $stmt2 = $conn2->query("SELECT * FROM parking_data");
+    $parkingData = $stmt2->fetchAll(PDO::FETCH_ASSOC);
+    ?>
+
+    <h2>Vehicle Counts</h2>
+    <table>
+        <tr>
+            <th>Timestamp</th>
+            <th>Car Count (Outgoing)</th>
+            <th>Truck Count (Outgoing)</th>
+            <th>Bus Count (Outgoing)</th>
+            <th>Free Space (Outgoing)</th>
+            <th>Car Count (Incoming)</th>
+            <th>Truck Count (Incoming)</th>
+            <th>Bus Count (Incoming)</th>
+            <th>Free Space (Incoming)</th>
+            <th>Place</th>
+        </tr>
+        <?php foreach ($vehicleCounts as $row) { ?>
+            <tr>
+                <td><?php echo $row['timestamp']; ?></td>
+                <td><?php echo $row['car_count_outgoing']; ?></td>
+                <td><?php echo $row['truck_count_outgoing']; ?></td>
+                <td><?php echo $row['bus_count_outgoing']; ?></td>
+                <td><?php echo $row['free_space_outgoing']; ?></td>
+                <td><?php echo $row['car_count_incoming']; ?></td>
+                <td><?php echo $row['truck_count_incoming']; ?></td>
+                <td><?php echo $row['bus_count_incoming']; ?></td>
+                <td><?php echo $row['free_space_incoming']; ?></td>
+                <td><?php echo $row['place']; ?></td>
+            </tr>
+        <?php } ?>
+    </table>
+
+    <h2>Parking Data</h2>
+    <table>
+        <tr>
+            <th>Timestamp</th>
+            <th>Car Count</th>
+            <th>Free Space</th>
+            <th>Place</th>
+        </tr>
+        <?php foreach ($parkingData as $row) { ?>
+            <tr>
+                <td><?php echo $row['time']; ?></td>
+                <td><?php echo $row['car_count']; ?></td>
+                <td><?php echo $row['free_space']; ?></td>
+                <td><?php echo $row['place']; ?></td>
+            </tr>
+        <?php } ?>
+    </table>
+</body>
+</html>
