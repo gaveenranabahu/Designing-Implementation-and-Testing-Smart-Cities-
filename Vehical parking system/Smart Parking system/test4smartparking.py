@@ -75,9 +75,9 @@ while True:
     if car_count != prev_car_count or free_space != prev_free_space:
         # Get current time
         current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
+        place = 'Heroya'
         # Send values to PHP file
-        data = {'car_count': car_count, 'free_space': free_space, 'time': current_time, 'place': 'Hovenga'}
+        data = {'car_count': car_count, 'free_space': free_space, 'time': current_time, 'place': place}
         response = requests.post('https://porsgrunntraffic.com/Insert_parking_data.php', data=data)
         print(response.text)  # Print the response from the PHP file
 
@@ -86,7 +86,7 @@ while True:
 
         # Send empty areas to the database
         empty_areas = ','.join(free_space_areas)
-        data = {'empty_areas': empty_areas, 'time': current_time, 'place': 'Downtown'}
+        data = {'empty_areas': empty_areas, 'time': current_time, 'place': place}
         response = requests.post('https://porsgrunntraffic.com/Insert_empty_areas.php', data=data)
         print(response.text)  # Print the response from the PHP file
         print(empty_areas)

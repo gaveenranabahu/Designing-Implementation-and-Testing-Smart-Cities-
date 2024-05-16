@@ -1,19 +1,27 @@
-﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Home</title>
+<title>Prosgrunn Traffic Daily</title>
 <meta name="Generator" content="Serif WebPlus X6 (14.0.0.020)">
 <meta name="viewport" content="width=969">
 <style type="text/css">
 body{margin:0;padding:0;}
 .Heading-1-C
 {
-    font-family:"Trebuchet MS", sans-serif; font-weight:700; color:#323f67; font-size:15.0px; line-height:1.33em;
+	font-family: "Trebuchet MS", sans-serif;
+	font-weight: 700;
+	color: #006666;
+	font-size: 15.0px;
+	line-height: 1.33em;
 }
 .Placeholder-C
 {
-    font-family:"Trebuchet MS", sans-serif; font-weight:700; color:#3d4c7c; font-size:19.0px; line-height:1.26em;
+	font-family: "Trebuchet MS", sans-serif;
+	font-weight: 700;
+	color: #006666;
+	font-size: 19.0px;
+	line-height: 1.26em;
 }
 .Placeholder-C-C0
 {
@@ -29,7 +37,11 @@ body{margin:0;padding:0;}
 }
 .Heading-1-C-C0
 {
-    font-family:"Trebuchet MS", sans-serif; font-weight:700; color:#323f67; font-size:19.0px; line-height:1.26em;
+	font-family: "Trebuchet MS", sans-serif;
+	font-weight: 700;
+	color: #006666;
+	font-size: 19.0px;
+	line-height: 1.26em;
 }
 .Heading-2-C
 {
@@ -41,8 +53,41 @@ body{margin:0;padding:0;}
 }
 .Heading-2-C-C0
 {
-    font-family:"Trebuchet MS", sans-serif; font-weight:700; color:#3d4c7c; font-size:32.0px; line-height:1.25em;
+	font-family: "Trebuchet MS", sans-serif;
+	font-weight: 700;
+	color: #006666;
+	font-size: 32.0px;
+	line-height: 1.25em;
 }
+
+.hover-effect {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: scale(1.2); /* Adjust the scale value to control the level of enlargement */
+}
+.cell-link {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.cell-link a {
+  display: inline-block;
+  padding: 7px; /* Adjust padding as needed */
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.3s ease;
+}
+
+.cell-link a:hover {
+  background-color: #eaeaea; /* Adjust background color on hover */
+}
+
+
 </style>
 <script type="text/javascript" src="wpscripts/jspngfix.js"></script>
 <link rel="stylesheet" href="wpscripts/wpstyles.css" type="text/css"><script type="text/javascript">
@@ -51,15 +96,16 @@ var blankSrc = "wpscripts/blank.gif";
 </head>
 
 <body text="#000000" style="background:#ffffff url('wpimages/wp110b269a_06.png') repeat-x scroll top center; height:1117px;">
-<div style="background-color:transparent;margin-left:auto;margin-right:auto;position:relative;width:969px;height:1117px;">
-<img src="wpimages/wp08ca0b50_06.png" border="0" width="948" height="53" id="qs_14" alt="" onload="OnLoadPngFix()" style="position:absolute;left:21px;top:1064px;">
+<div style="background-color:transparent;margin-left:auto;margin-right:auto;position:relative;width:969px;height:1300px;">
+
 <img src="wpimages/wpe1212f27_06.png" border="0" width="755" height="200" id="txt_1" title="" alt="Porsgrunn Traffic Daily&#10;" onload="OnLoadPngFix()" style="position:absolute;left:136px;top:108px;">
 <img src="wpimages/wpc07fde51_06.png" border="0" width="743" height="1" id="crv_1" alt="" onload="OnLoadPngFix()" style="position:absolute;left:24px;top:77px;">
 <img src="wpimages/wp01e8e69b_06.png" border="0" width="945" height="1" id="crv_2" alt="" onload="OnLoadPngFix()" style="position:absolute;left:24px;top:64px;">
-<img src="wpimages/wpa3022688_05_06.jpg" border="0" width="113" height="113" id="pic_1" alt="" style="position:absolute;left:47px;top:797px;">
-<img src="wpimages/wpc05c31b4_05_06.jpg" border="0" width="113" height="113" id="pic_5" alt="" style="position:absolute;left:45px;top:912px;">
-<div id="txt_3" style="position:absolute;left:57px;top:757px;width:174px;height:25px;overflow:hidden;">
-<h1 class="Wp-Heading-1-P"><span class="Heading-1-C">TRAFFIC MANAGEMENT </span></h1>
+
+
+<a href="https://prod-uk-a.online.tableau.com/#/site/2589144dccd0e4f1/views/Trafficcountingsystem/Dashboard1?:iid=2"><img src="wpimages/Traffic management.png" border="0" width="590" height="704" id="pic_1" alt="" style="position: absolute; left: 67px; top: 800px; width: 197px; height: 214px;"></a>
+<div id="txt_3" style="position: absolute; left: 9px; top: 733px; width: 313px; height: 43px; overflow: hidden;">
+  <h1 class="Wp-Heading-1-P"><span class="Heading-1-C"><span class="Heading-1-C-C0">Traffic Management - Dashboard</span></span></h1>
 </div>
 <div id="txt_5" style="position:absolute;left:362px;top:315px;width:400px;height:30px;overflow:hidden;">
 <h2 class="Wp-Heading-2-P"><span class="Placeholder-C">Overview</span></h2>
@@ -75,36 +121,16 @@ var blankSrc = "wpscripts/blank.gif";
 </div>
 <img src="wpimages/wp8a8de85a_06.png" border="0" width="281" height="1" id="crv_13" alt="" onload="OnLoadPngFix()" style="position:absolute;left:37px;top:388px;">
 <img src="wpimages/wp002048a4_06.png" border="0" width="281" height="1" id="crv_14" alt="" onload="OnLoadPngFix()" style="position:absolute;left:37px;top:389px;">
-<div id="txt_12" style="position:absolute;left:47px;top:411px;width:264px;height:30px;overflow:hidden;">
-<h1 class="Wp-Heading-1-P"><span class="Heading-1-C-C0">PARKING </span></h1>
+<div id="txt_12" style="position: absolute; left: 7px; top: 410px; width: 302px; height: 56px; overflow: hidden;">
+<h1 class="Wp-Heading-1-P"><span class="Heading-1-C-C0">Smart Parking - Dashboard</span></h1>
 </div>
-<img src="wpimages/wpbf1ed04a_06.png" border="0" width="16" height="759" id="qs_19" alt="" onload="OnLoadPngFix()" style="position:absolute;left:299px;top:334px;">
-<img src="wpimages/wpf470bebd_06.png" border="0" width="22" height="94" id="qs_20" alt="" onload="OnLoadPngFix()" style="position:absolute;left:293px;top:314px;">
-<img src="wpimages/wpa51e6319_06.png" border="0" width="22" height="94" id="qs_21" alt="" onload="OnLoadPngFix()" style="position:absolute;left:293px;top:1009px;">
-<map id="map0" name="map0">
-    <area shape="rect" coords="16,120,98,202" href="termsandconditions0.html" alt="">
-    <area shape="rect" coords="16,16,98,98" href="termsandconditions.html" alt="">
-</map>
-<img src="wpimages/wp64df314b_06.png" border="0" width="113" height="217" id="pic_13" title="" alt="Terms &amp; Conditions" onload="OnLoadPngFix()" usemap="#map0" style="position:absolute;left:46px;top:459px;">
-<div id="txt_90" style="position:absolute;left:182px;top:504px;width:70px;height:23px;overflow:hidden;">
-<p class="Wp-Body-Text-1-P"><span class="Body-Text-1-C"><a href="termsandconditions.html" style="text-decoration:underline;">Downtown</a></span></p>
-</div>
-<div id="txt_91" style="position:absolute;left:179px;top:599px;width:70px;height:23px;overflow:hidden;">
-<p class="Wp-Body-Text-1-P"><span class="Body-Text-1-C"><a href="termsandconditions0.html" style="text-decoration:underline;">Hovanga</a></span></p>
-</div>
-<div id="txt_92" style="position:absolute;left:177px;top:838px;width:70px;height:23px;overflow:hidden;">
-<p class="Wp-Body-Text-1-P"><span class="Body-Text-1-C">Downtown</span></p>
-</div>
-<div id="txt_93" style="position:absolute;left:174px;top:950px;width:70px;height:23px;overflow:hidden;">
-<p class="Wp-Body-Text-1-P"><span class="Body-Text-1-C">Porsgrunn Downtown</span></p>
-</div>
-<img src="wpimages/wpfe5f5e01_06.png" border="0" width="262" height="18" id="qs_182" alt="" onload="OnLoadPngFix()" style="position:absolute;left:43px;top:698px;">
+<img src="wpimages/wpbf1ed04a_06.png" border="0" width="16" height="759" id="qs_19" alt="" onload="OnLoadPngFix()" style="position: absolute; left: 328px; top: 334px;"><img src="wpimages/wpfe5f5e01_06.png" border="0" width="262" height="18" id="qs_182" alt="" onload="OnLoadPngFix()" style="position:absolute;left:43px;top:698px;">
 <img src="wpimages/wp1a1b2dc1_06.png" border="0" width="305" height="2" id="qs_183" alt="" onload="OnLoadPngFix()" style="position:absolute;left:0px;top:697px;">
 <img src="wpimages/wp04a5a731_06.png" border="0" width="305" height="2" id="qs_184" alt="" onload="OnLoadPngFix()" style="position:absolute;left:0px;top:713px;">
 <div id="txt_94" style="position:absolute;left:44px;top:317px;width:291px;height:55px;overflow:hidden;">
 <h2 class="Wp-Heading-2-P"><span class="Heading-2-C-C0">Our Services</span></h2>
 </div>
-<div id="panel_1" style="position:absolute;left:363px;top:483px;width:550px;height:169px;">
+<div id="panel_1" style="position:absolute;left:363px;top:433px;width:550px;height:169px;">
 
 <?php
     $servername = "localhost";
@@ -143,58 +169,11 @@ var blankSrc = "wpscripts/blank.gif";
                 <td style="border: 1px solid black; text-align: center;"><?php echo $row['time']; ?></td>
                 <td style="border: 1px solid black; text-align: center;"><?php echo $row['car_count']; ?></td>
                 <td style="border: 1px solid black; text-align: center;"><?php echo $row['free_space']; ?></td>
-                <td style="border: 1px solid black; text-align: center;"><?php echo $row['place']; ?></td>
+             <td class="cell-link"><a href="location.php?place=<?php echo urlencode($row['place']); ?>"><?php echo $row['place']; ?></a></td>
             </tr>
         <?php } ?>
     </table>
     
-    <?php
-// Database connection parameters
-$servername = 'localhost';
-$username = 'u607713813_porsgrunnpark';
-$password = 'Porsgrunn@1064';
-$dbname = 'u607713813_parking';
-
-// Create a new connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check the connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-// Fetch data from the database
-$sql = "SELECT t.*
-    FROM empty_areas t
-    INNER JOIN (
-        SELECT MAX(time) AS max_time, place
-        FROM empty_areas
-        GROUP BY place
-    ) AS latest
-    ON t.place = latest.place AND t.time = latest.max_time";
-$result = $conn->query($sql);
-
-// Generate HTML table markup
-if ($result->num_rows > 0) {
-    echo '<table>';
-    echo '<tr><th>ID</th><th>Area Name</th><th>Time</th><th>Place</th></tr>';
-    
-    while ($row = $result->fetch_assoc()) {
-        echo '<tr>';
-        echo '<td>' . $row['id'] . '</td>';
-        echo '<td>' . $row['area_name'] . '</td>';
-        echo '<td>' . $row['time'] . '</td>';
-        echo '<td>' . $row['place'] . '</td>';
-        echo '</tr>';
-    }
-    
-    echo '</table>';
-} else {
-    echo 'No data found.';
-}
-
-$conn->close();
-?>
     
     
     
@@ -218,26 +197,29 @@ $conn->close();
     SUM(truck_count_outgoing) AS total_truck_count_outgoing,
     SUM(bus_count_outgoing) AS total_bus_count_outgoing
     FROM vehicle_counts
-    WHERE timestamp >= DATE_SUB(CURDATE(), INTERVAL 10 DAY)
-    GROUP BY date, place
-    ORDER BY date";
+    WHERE timestamp >= DATE_SUB(CURDATE(), INTERVAL 20 DAY)
+    GROUP BY date, place";
     $result2 = $conn2->query($sql2);
     
     ?>
-    <h2>Vehicals Outgoing</h2>
+    <h2>Vehicle  Outgoing</h2>
     <table style="border-collapse: collapse; width: 100%;">
         <tr>
-            <th style="border: 1px solid black; text-align: center;">Timestamp</th>
+
             <th style="border: 1px solid black; text-align: center;">Cars Count</th>
             <th style="border: 1px solid black; text-align: center;">Trucks Count</th>
             <th style="border: 1px solid black; text-align: center;">Buses Count</th>
+            <th style="border: 1px solid black; text-align: center;">Date</th>
+
         </tr>
         <?php foreach ($result2 as $row) { ?>
             <tr>
-                <td style="border: 1px solid black; text-align: center;"><?php echo $row['date']; ?></td>
+
                 <td style="border: 1px solid black; text-align: center;"><?php echo $row['total_car_count_outgoing']; ?></td>
                 <td style="border: 1px solid black; text-align: center;"><?php echo $row['total_truck_count_outgoing']; ?></td>
                 <td style="border: 1px solid black; text-align: center;"><?php echo $row['total_bus_count_outgoing']; ?></td>
+               <td class="cell-link"><a href="traffic.php?date=<?php echo urlencode($row['date']); ?>"><?php echo $row['date']; ?></a></td>
+
             </tr>
         <?php } ?>
     </table>
@@ -261,26 +243,28 @@ $conn->close();
     SUM(truck_count_incoming) AS total_truck_count_incoming,
     SUM(bus_count_incoming) AS total_bus_count_incoming
     FROM vehicle_counts
-    WHERE timestamp >= DATE_SUB(CURDATE(), INTERVAL 10 DAY)
+    WHERE timestamp >= DATE_SUB(CURDATE(), INTERVAL 20 DAY)
     GROUP BY date, place
     ORDER BY date";
     $result2 = $conn2->query($sql2);
     
     ?>
-    <h2>Vehicals Incoming</h2>
+    <h2>Vehicle  Incoming</h2>
     <table style="border-collapse: collapse; width: 100%;">
         <tr>
-            <th style="border: 1px solid black; text-align: center;">Timestamp</th>
+            
             <th style="border: 1px solid black; text-align: center;">Cars Incoming</th>
             <th style="border: 1px solid black; text-align: center;">Trucks Incoming</th>
             <th style="border: 1px solid black; text-align: center;">Buses Incoming</th>
+            <th style="border: 1px solid black; text-align: center;">Date</th>
         </tr>
         <?php foreach ($result2 as $row) { ?>
             <tr>
-                <td style="border: 1px solid black; text-align: center;"><?php echo $row['date']; ?></td>
+               
                 <td style="border: 1px solid black; text-align: center;"><?php echo $row['total_car_count_incoming']; ?></td>
                 <td style="border: 1px solid black; text-align: center;"><?php echo $row['total_truck_count_incoming']; ?></td>
                 <td style="border: 1px solid black; text-align: center;"><?php echo $row['total_bus_count_incoming']; ?></td>
+                <td class="cell-link"><a href="trafficincoming.php?date=<?php echo urlencode($row['date']); ?>"><?php echo $row['date']; ?></a></td>
             </tr>
         <?php } ?>
     </table>
@@ -289,10 +273,7 @@ $conn->close();
 
 
 </div>
-<div id="panel_2" style="position:absolute;left:363px;top:713px;width:550px;height:95px;">
-</div>
-<div id="panel_3" style="position:absolute;left:363px;top:881px;width:550px;height:101px;">
-</div>
-</div>
+
+<a href="https://prod-uk-a.online.tableau.com/#/site/2589144dccd0e4f1/views/Vehicalparkingsystem/PorsgrunnParkingDashboard?:iid=3"><img src="wpimages/Smart parking.png" border="0" width="996" height="1022" id="pic_13" title="" alt="Terms &amp; Conditions" onload="OnLoadPngFix()" style="position: absolute; left: 68px; top: 483px; width: 198px; height: 200px;"></a></div>
 </body>
 </html>
